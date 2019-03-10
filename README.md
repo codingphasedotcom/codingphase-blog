@@ -49,7 +49,7 @@ var name = "John";
 
 4. Save cover image to img/blog/ folder and name it the same as the title but in this format "this-is-an-example.png" lower cased and for spaces use "-" don't use any other symbols
 
-###If you are doing a self interview
+### If you are doing a self interview
 
 1. Copy what's inside the "post" folder "full-name-interview.md" file and create a new file with your fullname lowercase and "-" to replace spaces. For example "john-smith-interview.md"
 
