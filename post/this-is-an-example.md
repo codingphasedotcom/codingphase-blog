@@ -1,7 +1,7 @@
 ---
 title: "This is an example"
 date: "2019-02-25"
-category: "Tutorials"
+category: "Tutorial"
 tags: design, development
 cover_image: "/img/blog/this-is-an-example.png"
 author: "Your Full Name"
