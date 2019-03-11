@@ -1,17 +1,19 @@
 ---
-title: "What I learned 6 months in at my first Web Dev job" //add title
-date: "2019-03-10" //add date
-category: "Blog" //add category name you choose
-tags: junior, developer, first job, react, imposter syndrome, imposter //add tags with commas no string format
-cover_image: "/img/blog/what-i-learned-6-months-in-at-my-first-web-dev-job.jpg" //name of cover image should be the same as the title but lower case and using "-" for spaces
-author: "Christian Aracena" //add your name
-author_image: "/img/blog/authors/christian-aracena.png" //name of author image should be the same as the author name but lower case and using "-" for spaces
-author_link: "https://cdaracena.com" //must link to a portfolio or social media account
+title: 'What I learned 6 months in at my first Web Dev job'
+date: '2019-03-10'
+category: 'Blog'
+tags: junior, developer, first job, react, imposter syndrome, imposter
+cover_image: '/img/blog/what-i-learned-6-months-in-at-my-first-web-dev-job.jpg'
+author: 'Christian Aracena'
+author_image: '/img/blog/authors/christian-aracena.png'
+author_link: 'https://cdaracena.com'
 ---
+
 # What I learned 6 months in at my first Web Dev job
+
 Hey everyone, hope all is well!
 
-Long story short I was able to land my first web developer job back in October of 2018 after graduating from a 3 month bootcamp in July of 2018. I was given a coding test which required me to build a small app that utilized the Yelp API and rendered the 20 closest restaurants in the location the user typed in the search bar. I built it with React (which I was just somewhat starting to get familiar with) and pure CSS. You can see the app here: [Local Bites](http://local-bites.surge.sh/) 
+Long story short I was able to land my first web developer job back in October of 2018 after graduating from a 3 month bootcamp in July of 2018. I was given a coding test which required me to build a small app that utilized the Yelp API and rendered the 20 closest restaurants in the location the user typed in the search bar. I built it with React (which I was just somewhat starting to get familiar with) and pure CSS. You can see the app here: [Local Bites](http://local-bites.surge.sh/)
 
 I’m getting laid off at the end of this month, not necessarily because I did bad work but because like a lot of start-ups, they started having financial difficulties and won’t be able to keep me onboard. At the very least I now have 6 good months of professional experience that I can add to my resume and overall career as a web developer (I wrote my first line of code in late January 2018). I just wanted to make this post to hopefully provide some advice and hope for other juniors or beginners like me as to what they might prepare for at their first job or what they can start looking into now.
 
@@ -40,14 +42,15 @@ As developers we need to stay-up-to-date and when you get your first dev job you
 6 months isn’t a crazy long time as a professional web developer but man do you learn a lot, in 6 months I acquired the following skills:
 
 Got significantly better at React and its countless intricacies
-* Learned Redux and about state management
-* Better understanding of how promises and asynchronous JS works
-* Learned some new Git tricks like git stash, git stash apply, git fetch
-* Learned the importance of documentation on your own code
-* Material UI
-* Learned about JSON Web Tokens and how they work
-* Why refactoring can go a long way
-* Testing with Cypress IO
+
+- Learned Redux and about state management
+- Better understanding of how promises and asynchronous JS works
+- Learned some new Git tricks like git stash, git stash apply, git fetch
+- Learned the importance of documentation on your own code
+- Material UI
+- Learned about JSON Web Tokens and how they work
+- Why refactoring can go a long way
+- Testing with Cypress IO
 
 Out of all the skills I acquired in the past 6 months as a junior developer…I would say the greatest one I’m taking with me from this job is definitely testing. At first I didn’t understand why testing was important but now I see the value of it. It leads to cleaner, more efficient code and prevents potential bugs from popping up and driving you insane. Admittedly, it’s not the funnest part of being a developer but it’s a very useful skill that stands out when you’re applying to places because jobs want juniors who know how and what to test, you’re essentially saving the senior and lead developer time from dealing with potential bugs, and who wants to deal with bugs when you’re under pressure or need to finish a project by a certain time period?
 
