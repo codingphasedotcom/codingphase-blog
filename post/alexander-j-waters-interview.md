@@ -3,7 +3,7 @@ title: "Developer Interview: Alexander J. Waters"
 date: "2019-05-24"
 category: "Interview"
 tags: design, development
-cover_image: "/img/blog/interview-alexander-j-waters.png"
+cover_image: "/img/blog/interview-alexander-j-waters.jpg"
 author: "Alexander J. Waters"
 author_image: "/img/blog/authors/joe-santos-garcia.png"
 author_link: "https://www.twitter.com/codingphase"
