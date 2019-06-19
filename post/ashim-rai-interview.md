@@ -11,34 +11,36 @@ author_link: "https://www.twitter.com/codingphase"
 
 ### Can you introduce yourself (name, location, age, etc..)?
 
-Hi my name is Ashim Rai
+Hi my name is Ashim Rai, I am from the United Kingdom and am 25 years old.
 
 ### How did you get interested in programming?
 
-Started with watching a video created by Chris Sean which really inspired me
-to try and pursue a career in programming
+Chris Sean's video about how he became a developer in 3 months really piques my interest in learning
+programming again as I had tried to learn it back in university to no avail.
 
 ### When did you start learning to code?
 
-When I was 20
+I first started learning to code when I was 20 years old at that it time I didn't find it very interesting.
+I started to properly learn to code when I was 23 years old.
 
 ### Where do you learn new skills?
 
-Udemy and Codingphase
+Currently I'm learning from codingphase academy but also have purchased some course on Udemy that was
+recommended by Joe. Another platform I'm try out is Mike Locke's UX courses on WordPress.
 
 ### What do you love the most about programming?
 
-the challenge to try and constantly improve myself
+I love the challenge of trying to solve problems and also learning new skills that can help me in my career
+as a developer hopefully in the not so distant future.
 
 ### What do you hate about programming?
 
-trying to keep up with the industry as it's changing at a really fast pace
+At this moment in time there is nothing I hate about programming, but my answer could change in the future.
 
 ### Are you currently working as a developer?
 
-I am not currently working as developer yet, currently looking to improve my
-skillsets to a point where I am able to first create a portfolio website and
-also brush up my interview skill.
+I am not currently working as developer yet, I am currently looking to learn JavaScript and PHP point
+I am able to first create a portfolio website and also brush up my interview skill.
 
 ### What's your favorite stack or type of applications?
 
@@ -47,7 +49,7 @@ this question
 
 ### What's a technology or language or skill you wish to learn in the future?
 
-javascript frameworks
+javascript frameworks and back-end languages like PHP
 
 ### Where do you see yourself in 5 years?
 
@@ -55,4 +57,7 @@ working as a full-stack developer trying to make various businesses to generate 
 
 ### If you were to go back into time and give yourself an advice to make it easier to learn to code what would you say?
 
-better to learn slow in the beginning to grasp all of the concepts than try and rush through a course.
+It would be better to learn slow in the beginning to grasp all of the concepts than try and rush through the
+language that you are learning. Also ignore all the noise about the latest frameworks as you can learn them
+in the near future, especially if you are just trying to get in the industry, just focus on the languages
+that are essential to get you hired in the company that you are looking into.
