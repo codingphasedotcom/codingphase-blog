@@ -1,54 +1,54 @@
 ---
-title: "Developer Interview: Your Full Name"
-date: "2019-02-25"
+title: "Developer Interview: Alvin Cristales"
+date: "2019-16-07"
 category: "Interview"
 tags: design, development
-cover_image: "/img/blog/interview-full-name.png"
-author: "Your Full Name"
+cover_image: "/img/blog/interview-alvin-cristales.png"
+author: "Alvin Cristales"
 author_image: "/img/blog/authors/joe-santos-garcia.png"
 author_link: "https://www.twitter.com/codingphase"
 ---
 
 ### Can you introduce yourself (name, location, age, etc..)?
 
-write your answer here
+Hi my name is Alvin.
 
 ### How did you get interested in programming?
 
-write your answer here
+I learn in college
 
 ### When did you start learning to code?
 
-write your answer here
+At the age 28
 
 ### Where do you learn new skills?
 
-write your answer here
+Books and the internet.
 
 ### What do you love the most about programming?
 
-write your answer here
+Solving the problem like a puzzle.
 
 ### What do you hate about programming?
 
-write your answer here
+When you stuck and you can't find the answer.
 
 ### Are you currently working as a developer?
 
-write your answer here
+No, I'm working in I.T.
 
 ### What's your favorite stack or type of applications?
 
-write your answer here
+Inky-Fundation
 
 ### What's a technology or language or skill you wish to learn in the future?
 
-write your answer here
+I would like to learn React for future projects.
 
 ### Where do you see yourself in 5 years?
 
-write your answer here
+Becoming a fullstack developer.
 
 ### If you were to go back into time and give yourself an advice to make it easier to learn to code what would you say?
 
-write your answer here
+Learn Javascript off w3school.
