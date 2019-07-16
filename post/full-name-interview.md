@@ -5,7 +5,7 @@ category: "Interview"
 tags: design, development
 cover_image: "/img/blog/interview-alvin-cristales.png"
 author: "Alvin Cristales"
-author_image: "/img/blog/authors/joe-santos-garcia.png"
+author_image: "/img/blog/authors/interview-joe-santos-garcia.png"
 author_link: "https://www.twitter.com/codingphase"
 ---
 
