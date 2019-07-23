@@ -23,7 +23,7 @@ Playing video games... I was always interested in how someone can make a game fr
 
 ### Where do you learn new skills?
 
-Online, I started with TeamTreeHouse on the free trail, fell in love with it so continued with a youtuber named Stefan Mischook that has some great courses. Now learning from CodingPhase! Also, my entire media diet is anything and everything that has to do with programing/code on Youtube.
+Online, I started with TeamTreeHouse on the free trial and fell in love. I continued with a youtuber named Stefan Mischook that has some great courses. Now learning from CodingPhase! Also, my entire media diet is anything and everything that has to do with programing/code on Youtube. (I would have totally started with CodingPhase if I knew about it)
 
 ### What do you love the most about programming?
 The learning process. It has me excited all day!
