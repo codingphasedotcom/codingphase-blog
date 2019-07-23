@@ -11,35 +11,35 @@ author_link: "https://www.twitter.com/codingphase"
 
 ### Can you introduce yourself (name, location, age, etc..)?
 
-Hey my name is Marcos Rodriguez. Currently I am living in Carson City, NV. I am 28 with a wife and 2 kids.
+Hey my name is Marcos Rodriguez. Currently I am living in Carson City, NV. I am 28 with and live with wife and 2 kids.
 
 ### How did you get interested in programming?
 
-Playing video games... I was always interested in how someone can make a game from code/programming. And how we can actually physically play that code with a controller. 
+Playing video games... I was always interested in how someone can make a game from code/programming and how we can actually, physically play that code with a controller.
 
 ### When did you start learning to code?
 
-2 months ago. Ha. So around May of 2019.
+2 months ago. Ha. So around May of 2019. So I can happily say I started at the age of 28.
 
 ### Where do you learn new skills?
 
-Online, started with TeamTreeHouse on the free trail, fell in love with it so continued with a youtuber named Stefan Mischook that has some great courses. Now learning from CodingPhase! Also, my entire media diet is anything and everything that has to do with programing/code on youtube.
+Online, I started with TeamTreeHouse on the free trail, fell in love with it so continued with a youtuber named Stefan Mischook that has some great courses. Now learning from CodingPhase! Also, my entire media diet is anything and everything that has to do with programing/code on Youtube.
 
 ### What do you love the most about programming?
-The learning process. It has me exicted all day!
-The control that we have to creat, but also the freedom. You are not bound to one single niche or bussiness area. You can tackle whatever you dare. And its like math with words, in school I really enjoyed algebra and JS/PHP really remind me of that.
+The learning process. It has me excited all day!
+The control that we have to create, but also the freedom. You are not bound to one single niche or business area. You can tackle whatever you dare. Also, its like math with words, in school I really enjoyed algebra and JS/PHP remind me of that.
 
 ### What do you hate about programming?
 
-The fact that it could of changed my life 10 years ago, but I waited until I was 28 to start learning. (CSS positioning sucks lol)
+The fact that it could have changed my life 10 years ago, but I waited until I was 28 to start learning. (CSS positioning sucks lol)
 
 ### Are you currently working as a developer?
 
-No, not yet. Not for long! More interested in freelancing and making my own money, but I do want the work experience with code. I am sure it will help tremendously.
+No, not yet. Not for long! I am more interested in freelancing(a bit more in the future) and making my own money, but I do want the work experience to polish my code skills and learning. I am sure it will help tremendously.
 
 ### What's your favorite stack or type of applications?
 
-Will love to answer this when I become more familiar with them but from what I have heard is that MERN is when you use JS frameworks so that one(Love JS).
+I would love to answer this when I become more familiar with stacks but from what I have heard, MERN is when you use pure JS frameworks, so I pick that one(I Love JS).
 Favorite application types would have to be whatever is more profitable for me!
 
 ### What's a technology or language or skill you wish to learn in the future?
@@ -50,8 +50,8 @@ Frameworks and Stacks!
 
 ### Where do you see yourself in 5 years?
 
-Sitting on a beach, unemployed from a "job" while making a ton of money for my family from my passive income and applicatioins I have sold...
+Sitting on a beach, unemployed from a "job" while making a ton of money for my family from my passive income and applications I have sold.
 
 ### If you were to go back into time and give yourself an advice to make it easier to learn to code what would you say?
 
-START YOUNG and early, Waaaaaay earlier and dont listen to anyone but yourself in what dreams you want to persue.
+START YOUNG and early, Waaaaaay earlier and don't listen to anyone but yourself in what dreams you want to pursue.
