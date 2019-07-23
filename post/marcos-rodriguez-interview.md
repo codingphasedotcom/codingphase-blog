@@ -11,7 +11,7 @@ author_link: "https://www.twitter.com/codingphase"
 
 ### Can you introduce yourself (name, location, age, etc..)?
 
-Hey my name is Marcos Rodriguez. Currently I am living in Carson City, NV. I am 28 with and live with wife and 2 kids.
+Hey my name is Marcos Rodriguez. Currently I am living in Carson City, NV. I am 28 and live with my wife and 2 kids.
 
 ### How did you get interested in programming?
 
