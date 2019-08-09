@@ -4,8 +4,8 @@ date: "2019-08-08"
 category: "Interview"
 tags: design, development
 cover_image: "/img/blog/don-mazone.jpg"
-author: "Don Mazone"
-author_image: "/img/blog/authors/don-mazone.jpg"
+author: "Joe Santos Garcia"
+author_image: "/img/blog/authors/joe-santos-garcia.png"
 author_link: "https://www.twitter.com/codingphase"
 ---
 
