@@ -35,7 +35,7 @@ Unknown errors.
 
 ### Are you currently working as a developer?
 
-Working up to it...
+No. But, I'm trying to get started ASAP.
 
 ### What's your favorite stack or type of applications?
 
@@ -47,7 +47,7 @@ I'm open to anything.
 
 ### Where do you see yourself in 5 years?
 
-Hopefully, in a better place, finacially -so that I can have more free time.
+Hopefully, in a better place financially - so that I can have more free time.
 
 ### If you were to go back into time and give yourself an advice to make it easier to learn to code what would you say?
 
