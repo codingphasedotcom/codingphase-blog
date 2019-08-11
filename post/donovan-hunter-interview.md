@@ -4,7 +4,7 @@ date: "2019-08-11"
 category: "Interview"
 tags: design, development
 cover_image: "/img/blog/interview-donovan-hunter.jpg"
-author: "Joe Santos Garcia"
+author: "Donovan Hunter"
 author_image: "/img/blog/authors/joe-santos-garcia.png"
 author_link: "https://www.twitter.com/codingphase"
 ---
