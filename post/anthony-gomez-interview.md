@@ -27,7 +27,7 @@ Mostly books and currently from codingphase
 
 ### What do you love the most about programming?
 
-I love the freedome to build anything you want.
+I love the freedom to build anything you want.
 
 ### What do you hate about programming?
 
