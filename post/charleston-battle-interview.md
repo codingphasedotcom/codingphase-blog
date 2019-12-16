@@ -5,7 +5,7 @@ category: "Interview"
 tags: design, development
 cover_image: "/img/blog/interview-charleston-battle.jpg"
 author: "Joe Santos Garcia"
-author_image: "/img/blog/authors/joe-santos-garcia.png"
+author_image: "/img/blog/authors/joe-santos-garcia.jpg"
 author_link: "https://www.twitter.com/codingphase"
 ---
 
