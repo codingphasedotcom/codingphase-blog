@@ -3,7 +3,7 @@ title: "Developer Interview: Sean McDonough"
 date: "2019-12-24"
 category: "Interview"
 tags: design, development
-cover_image: "/img/blog/interview-sean-mcdonough.png"
+cover_image: "/img/blog/interview-sean-mcdonough.jpg"
 author: "Sean McDonough"
 author_image: "/img/blog/authors/joe-santos-garcia.png"
 author_link: "https://www.twitter.com/codingphase"
