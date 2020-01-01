@@ -51,4 +51,4 @@ I gonna be a full-stack web developer
 
 ### If you were to go back into time and give yourself an advice to make it easier to learn to code what would you say?
 
-Just focusing on learning 1 programming language from the beginning and make sure I understand the fundamental of programming
+Just focusing on learning 1 programming language from the beginning and make sure I understand the fundamental of programming. HI HI
