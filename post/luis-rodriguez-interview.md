@@ -3,7 +3,7 @@ title: "Developer Interview: Luis Rodriguez"
 date: "2020-06-20"
 category: "Interview"
 tags: design, development
-cover_image: "/img/blog/interview-joe-santos-garcia.jpg"
+cover_image: "/img/blog/interview-luis-rodriguez.jpg"
 author: "Luis Rodriguez"
 author_image: "/img/blog/authors/joe-santos-garcia.png"
 author_link: "https://www.twitter.com/codingphase"
@@ -23,7 +23,7 @@ At age 18 in college.
 
 ### Where do you learn new skills?
 
-Everywhere.
+Research everything online.
 
 ### What do you love the most about programming?
 
