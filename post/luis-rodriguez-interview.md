@@ -11,7 +11,7 @@ author_link: "https://www.twitter.com/codingphase"
 
 ### Can you introduce yourself (name, location, age, etc..)?
 
-My name is Joe Santos Garcia
+My name is Luis Rodriguez.
 
 ### How did you get interested in programming?
 
@@ -51,4 +51,4 @@ Working for a company and for myself.
 
 ### If you were to go back into time and give yourself an advice to make it easier to learn to code what would you say?
 
-Use the Internet a lot more. Schools do not have all of the answers.
+Do your own research on the Internet. Schools do not have all of the answers.
