@@ -3,7 +3,7 @@ title: "Developer Interview: Joe Santos Garcia"
 date: "2019-04-10"
 category: "Interview"
 tags: design, development
-cover_image: "/img/blog/interview-joe-santos-garcia.jpg"
+cover_image: "/img/blog/interview-Alfonso-Del-Toro.jpg"
 author: "Joe Santos Garcia"
 author_image: "/img/blog/authors/joe-santos-garcia.png"
 author_link: "https://www.twitter.com/codingphase"
