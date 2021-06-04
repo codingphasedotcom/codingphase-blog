@@ -1,4 +1,3 @@
----
 title: "Developer Interview: Hershel McClain"
 date: "2021-05-30"
 category: "Interview"
