@@ -11,7 +11,7 @@ author_link: "https://www.twitter.com/codingphase"
 
 ### Can you introduce yourself (name, location, age, etc..)?
 
-Hi im jefferson right now im in New York city manhttan, im 222 years old
+Hi im jefferson right now im in New York city manhttan, im 22 years old
 ### How did you get interested in programming?
 
 I was look for something new and found programming.
