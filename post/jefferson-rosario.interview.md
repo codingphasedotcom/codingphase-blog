@@ -1,6 +1,6 @@
 ---
 title: "Developer Interview: jefferson rosario"
-date: "20121-06-09"
+date: "2021-06-09"
 category: "Interview"
 tags: design, development
 cover_image: "/img/blog/interview-jefferson-rosario.jpeg"
