@@ -36,7 +36,7 @@ author_link: "https://www.twitter.com/codingphase"
 
 #### The thing I hate the most about programing would be the light mode themes that come with most text editors.
 >
->> Because they often times attract the most bugs. :stuck_out_tongue_winking_eye:
+>> #### Because they often times attract the most bugs. :stuck_out_tongue_winking_eye:
 
 ### Are you currently working as a developer?
 
@@ -52,7 +52,7 @@ author_link: "https://www.twitter.com/codingphase"
 
 ### Where do you see yourself in 5 years?
 
-#### I have re-dedicated myself to continual learning and finding ways to convert that knowledge into finacial enrichment is my goal for now for my future.
+#### I have re-dedicated myself to continual learning and finding ways to convert that knowledge into finacial enrichment. That is my goal for now and for my future.
 
 ### If you were to go back into time and give yourself an advice to make it easier to learn to code what would you say?
 
@@ -67,4 +67,4 @@ author_link: "https://www.twitter.com/codingphase"
  
  - "You need to be more realistic" 
  
- #### as these beliefs are antithetical to developmet and or success.
+ #### as these beliefs were antithetical to my developmet and or success.
