@@ -1,11 +1,11 @@
 ---
-title: "Developer Interview: Your Full Name"
-date: "2019-02-25"
+title: "Developer Interview: Blake Hutchinson"
+date: "2022-04-25"
 category: "Interview"
 tags: design, development
-cover_image: "/img/blog/interview-full-name.png"
-author: "Your Full Name"
-author_image: "/img/blog/authors/joe-santos-garcia.png"
+cover_image: "/img/blog/interview-blake-hutchinson.png"
+author: "Blake Hutchinson"
+author_image: "/img/blog/authors/blake-hutchinson.jpg"
 author_link: "https://www.twitter.com/codingphase"
 ---
 
