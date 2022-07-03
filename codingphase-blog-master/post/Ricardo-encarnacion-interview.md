@@ -2,7 +2,7 @@ title: "Developer Interview: Ricardo Encarnacion"
 date: "2022-07-03"
 category: "Interview"
 tags: design, development
-cover_image: "/img/blog/interview-ricardo-encarnacion.png"
+cover_image: "/img/blog/interview-ricardo-encarnacion.jpg"
 author: "Ricardo Encarnacion"
 author_image: "/img/blog/authors/ricardo-encarnacion.png"
 author_link: "https://www.twitter.com/codingphase"
