@@ -1,0 +1,920 @@
+Last login: Tue Jun 28 23:47:33 on ttys000
+johnnylang@johnnys-MBP ~ % git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+
+johnnylang@johnnys-MBP ~ % git config --global user.name 'Johnny Lang'
+johnnylang@johnnys-MBP ~ % git config --globacl usher.email 'johnnylang12@gmail.com'
+error: unknown option `globacl'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+
+johnnylang@johnnys-MBP ~ % clear
+
+johnnylang@johnnys-MBP ~ % cd
+johnnylang@johnnys-MBP ~ % ls
+Applications		Downloads		Public
+Coding			Library			Trading
+Creative Cloud Files	Movies			node_modules
+Desktop			Music			package-lock.json
+Documents		Pictures		package.json
+johnnylang@johnnys-MBP ~ % cd Projects/git-course
+cd: no such file or directory: Projects/git-course
+johnnylang@johnnys-MBP ~ % ls
+Applications		Downloads		Public
+Coding			Library			Trading
+Creative Cloud Files	Movies			node_modules
+Desktop			Music			package-lock.json
+Documents		Pictures		package.json
+johnnylang@johnnys-MBP ~ % cd Coding/Projects/git-course
+johnnylang@johnnys-MBP git-course % ls
+index.html
+johnnylang@johnnys-MBP git-course % git init
+Initialized empty Git repository in /Users/johnnylang/Coding/Projects/git-course/.git/
+johnnylang@johnnys-MBP git-course % git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+johnnylang@johnnys-MBP git-course % git add 
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+johnnylang@johnnys-MBP git-course % git add index.html
+johnnylang@johnnys-MBP git-course % git commit -am "I added a new file called index.html"
+[master (root-commit) d64ca15] I added a new file called index.html
+ Committer: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+johnnylang@johnnys-MBP git-course % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+johnnylang@johnnys-MBP git-course % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	config.js
+	css/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+johnnylang@johnnys-MBP git-course % git add .
+johnnylang@johnnys-MBP git-course % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   config.js
+	new file:   css/main.css
+	modified:   index.html
+
+johnnylang@johnnys-MBP git-course % git commit -am "created main.css and config.js"
+[master 9d4fdf4] created main.css and config.js
+ Committer: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 7 insertions(+)
+ create mode 100644 config.js
+ create mode 100644 css/main.css
+johnnylang@johnnys-MBP git-course % git commit -am "made background red"
+[master 1d8f2f8] made background red
+ Committer: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+johnnylang@johnnys-MBP git-course % clear
+
+johnnylang@johnnys-MBP git-course % git log
+commit 1d8f2f81a9d2d2116d0d6987545f3639506d59f5 (HEAD -> master)
+Author: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Date:   Mon Jul 4 22:07:33 2022 -0700
+
+    made background red
+
+commit 9d4fdf430f571c96a43149b214412a3af0698dad
+Author: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Date:   Mon Jul 4 22:06:13 2022 -0700
+
+    created main.css and config.js
+
+commit d64ca152592389ddf386e60b0ec3e09cf65d18de
+Author: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Date:   Mon Jul 4 21:53:53 2022 -0700
+
+    I added a new file called index.html
+johnnylang@johnnys-MBP git-course % git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+johnnylang@johnnys-MBP git-course % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+johnnylang@johnnys-MBP git-course % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+johnnylang@johnnys-MBP git-course % git add .
+johnnylang@johnnys-MBP git-course % git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+
+johnnylang@johnnys-MBP git-course % git commit -am "changed background and added header"
+[master 8c53b10] changed background and added header
+ Committer: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+johnnylang@johnnys-MBP git-course % git status
+On branch master
+nothing to commit, working tree clean
+johnnylang@johnnys-MBP git-course % git checkout header
+error: pathspec 'header' did not match any file(s) known to git.
+johnnylang@johnnys-MBP git-course % git checkout header
+error: pathspec 'header' did not match any file(s) known to git.
+johnnylang@johnnys-MBP git-course % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+johnnylang@johnnys-MBP git-course % git checkout master
+M	index.html
+Already on 'master'
+johnnylang@johnnys-MBP git-course % git branch header
+johnnylang@johnnys-MBP git-course % git checkout header
+M	index.html
+Switched to branch 'header'
+johnnylang@johnnys-MBP git-course % get checkout -b
+zsh: command not found: get
+johnnylang@johnnys-MBP git-course % git checkout -b
+error: switch `b' requires a value
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -q, --quiet           suppress progress reporting
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --detach              detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    --orphan <new-branch>
+                          new unparented branch
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -f, --force           force checkout (throw away local modifications)
+    -m, --merge           perform a 3-way merge with the new branch
+    --overwrite-ignore    update ignored files (default)
+    --conflict <style>    conflict style (merge or diff3)
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+
+johnnylang@johnnys-MBP git-course % git checkout -b sidebar
+M	index.html
+Switched to a new branch 'sidebar'
+johnnylang@johnnys-MBP git-course % git branch -av
+  header  8c53b10 changed background and added header
+  master  8c53b10 changed background and added header
+* sidebar 8c53b10 changed background and added header
+johnnylang@johnnys-MBP git-course % git status
+On branch sidebar
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+johnnylang@johnnys-MBP git-course % clear
+
+johnnylang@johnnys-MBP git-course % git add .
+johnnylang@johnnys-MBP git-course % get status
+zsh: command not found: get
+johnnylang@johnnys-MBP git-course % git status
+On branch sidebar
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+
+johnnylang@johnnys-MBP git-course % git commit -am "added sidebar"
+[sidebar 10d556e] added sidebar
+ Committer: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+johnnylang@johnnys-MBP git-course % git checkout master
+Switched to branch 'master'
+johnnylang@johnnys-MBP git-course % git branch -d sidebar
+error: The branch 'sidebar' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D sidebar'.
+johnnylang@johnnys-MBP git-course % git branch -D sidebar
+Deleted branch sidebar (was 10d556e).
+johnnylang@johnnys-MBP git-course % git status
+On branch master
+nothing to commit, working tree clean
+johnnylang@johnnys-MBP git-course % git -av
+Unknown option: -av
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+johnnylang@johnnys-MBP git-course % git branch -av
+  header 8c53b10 changed background and added header
+* master 8c53b10 changed background and added header
+johnnylang@johnnys-MBP git-course % git checkout header
+Switched to branch 'header'
+johnnylang@johnnys-MBP git-course % git merge master
+Already up to date.
+johnnylang@johnnys-MBP git-course % git checkout master
+Switched to branch 'master'
+johnnylang@johnnys-MBP git-course % git add .
+johnnylang@johnnys-MBP git-course % git commit -am "added lists"
+[master 7bcef8d] added lists
+ Committer: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+)
+johnnylang@johnnys-MBP git-course % git checkout header
+Switched to branch 'header'
+johnnylang@johnnys-MBP git-course % git merge master
+Updating 8c53b10..7bcef8d
+Fast-forward
+ index.html | 5 +++++
+ 1 file changed, 5 insertions(+)
+johnnylang@johnnys-MBP git-course % clear
+
+johnnylang@johnnys-MBP git-course % git log
+commit 7bcef8d092ed2bdcd9ad40f37eee0d2e557de246 (HEAD -> header, master)
+Author: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Date:   Tue Jul 5 16:41:28 2022 -0700
+
+    added lists
+
+commit 8c53b10beb8a7159cedf1735a6dcdebc6638c209
+Author: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Date:   Tue Jul 5 16:20:23 2022 -0700
+
+    changed background and added header
+
+commit 1d8f2f81a9d2d2116d0d6987545f3639506d59f5
+Author: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Date:   Mon Jul 4 22:07:33 2022 -0700
+
+    made background red
+
+commit 9d4fdf430f571c96a43149b214412a3af0698dad
+Author: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Date:   Mon Jul 4 22:06:13 2022 -0700
+
+    created main.css and config.js
+
+commit d64ca152592389ddf386e60b0ec3e09cf65d18de
+Author: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Date:   Mon Jul 4 21:53:53 2022 -0700
+
+    I added a new file called index.html
+johnnylang@johnnys-MBP git-course % git branch
+* header
+  master
+johnnylang@johnnys-MBP git-course % git checkout master
+Switched to branch 'master'
+johnnylang@johnnys-MBP git-course % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+johnnylang@johnnys-MBP git-course % git merge header
+Already up to date.
+johnnylang@johnnys-MBP git-course % git status
+On branch master
+nothing to commit, working tree clean
+johnnylang@johnnys-MBP git-course % git branch
+  header
+* master
+johnnylang@johnnys-MBP git-course % git checkout sidebar
+error: pathspec 'sidebar' did not match any file(s) known to git.
+johnnylang@johnnys-MBP git-course % git merge master
+Already up to date.
+johnnylang@johnnys-MBP git-course % git branch sidebar
+johnnylang@johnnys-MBP git-course % git checkout sidebar
+Switched to branch 'sidebar'
+johnnylang@johnnys-MBP git-course % git merge master
+Already up to date.
+johnnylang@johnnys-MBP git-course % get branch
+zsh: command not found: get
+johnnylang@johnnys-MBP git-course % git branch
+  header
+  master
+* sidebar
+johnnylang@johnnys-MBP git-course % git merge master
+Already up to date.
+johnnylang@johnnys-MBP git-course % git checkout header
+M	index.html
+Switched to branch 'header'
+johnnylang@johnnys-MBP git-course % git commit -am "added lists"
+[header d985855] added lists
+ Committer: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+johnnylang@johnnys-MBP git-course % git add .
+johnnylang@johnnys-MBP git-course % git commit -am "added lists"
+On branch header
+nothing to commit, working tree clean
+johnnylang@johnnys-MBP git-course % git merge master
+Already up to date.
+johnnylang@johnnys-MBP git-course % git checkout sidebar
+Switched to branch 'sidebar'
+johnnylang@johnnys-MBP git-course % git merge master
+Already up to date.
+johnnylang@johnnys-MBP git-course % git merge header
+Updating 7bcef8d..d985855
+Fast-forward
+ index.html | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+johnnylang@johnnys-MBP git-course % git branch
+  header
+  master
+* sidebar
+johnnylang@johnnys-MBP git-course % git checkout header
+Switched to branch 'header'
+johnnylang@johnnys-MBP git-course % git merge master
+Already up to date.
+johnnylang@johnnys-MBP git-course % clear
+
+johnnylang@johnnys-MBP git-course % git commit -am "merged master into sidebar"
+On branch header
+nothing to commit, working tree clean
+johnnylang@johnnys-MBP git-course % git checkout master
+Switched to branch 'master'
+johnnylang@johnnys-MBP git-course % git merge sidebar
+Updating 7bcef8d..d985855
+Fast-forward
+ index.html | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+johnnylang@johnnys-MBP git-course % get branch
+zsh: command not found: get
+johnnylang@johnnys-MBP git-course % get checkout header
+zsh: command not found: get
+johnnylang@johnnys-MBP git-course % git branch
+  header
+* master
+  sidebar
+johnnylang@johnnys-MBP git-course % git checkout header
+Switched to branch 'header'
+johnnylang@johnnys-MBP git-course % git checkout -- index.html
+johnnylang@johnnys-MBP git-course % git status
+On branch header
+nothing to commit, working tree clean
+johnnylang@johnnys-MBP git-course % git checkout --index.html
+error: unknown option `index.html'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -q, --quiet           suppress progress reporting
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --detach              detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    --orphan <new-branch>
+                          new unparented branch
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -f, --force           force checkout (throw away local modifications)
+    -m, --merge           perform a 3-way merge with the new branch
+    --overwrite-ignore    update ignored files (default)
+    --conflict <style>    conflict style (merge or diff3)
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+
+johnnylang@johnnys-MBP git-course % git checkout -- index.html
+johnnylang@johnnys-MBP git-course % git checkout -- index.html
+johnnylang@johnnys-MBP git-course % 
+  [Restored Jul 5, 2022 at 7:59:38 PM]
+Last login: Tue Jul  5 19:59:35 on console
+Restored session: Tue Jul  5 19:58:48 PDT 2022
+johnnylang@johnnys-MBP git-course % clear
+
+johnnylang@johnnys-MBP git-course % git clone https://github.com/codingphasedotcom/Dev-Starter-Kit.git
+Cloning into 'Dev-Starter-Kit'...
+remote: Enumerating objects: 499, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 499 (delta 1), reused 1 (delta 0), pack-reused 489
+Receiving objects: 100% (499/499), 2.59 MiB | 3.85 MiB/s, done.
+Resolving deltas: 100% (220/220), done.
+johnnylang@johnnys-MBP git-course % git remote add origin https://github.com/johnnylang12/git-course.git
+johnnylang@johnnys-MBP git-course % git push -u origin master
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://johnnylang12:Mong1544@github.com/johnnylang12/git-course.git/'
+johnnylang@johnnys-MBP git-course % git push -u origin master
+fatal: unable to access 'https://johnnylang12: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.com/johnnylang12/git-course.git/': URL using bad/illegal format or missing URL
+johnnylang@johnnys-MBP git-course % git push -u origin master
+Counting objects: 20, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (20/20), 1.87 KiB | 1.87 MiB/s, done.
+Total 20 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/johnnylang12/git-course.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+johnnylang@johnnys-MBP git-course % sudo rm -rf dev-starter-kit
+Password:
+Sorry, try again.
+Password:
+johnnylang@johnnys-MBP git-course % git status
+On branch header
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+	passwords.env
+
+nothing added to commit but untracked files present (use "git add" to track)
+johnnylang@johnnys-MBP git-course % git add .
+johnnylang@johnnys-MBP git-course % git commit -am "added a gitignore"
+[header 0d1e3a5] added a gitignore
+ Committer: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 3 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 passwords.env
+johnnylang@johnnys-MBP git-course % git push origin master
+Everything up-to-date
+johnnylang@johnnys-MBP git-course % git push origin master
+Everything up-to-date
+johnnylang@johnnys-MBP git-course % git status
+On branch header
+nothing to commit, working tree clean
+johnnylang@johnnys-MBP git-course % git status
+On branch header
+nothing to commit, working tree clean
+johnnylang@johnnys-MBP git-course % git add .
+johnnylang@johnnys-MBP git-course % git push origin master
+Everything up-to-date
+johnnylang@johnnys-MBP git-course % git commit -am "added a gitignore"
+On branch header
+nothing to commit, working tree clean
+johnnylang@johnnys-MBP git-course % git branch -av
+* header                0d1e3a5 added a gitignore
+  master                d985855 added lists
+  sidebar               d985855 added lists
+  remotes/origin/master d985855 added lists
+johnnylang@johnnys-MBP git-course % git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+johnnylang@johnnys-MBP git-course % git merge
+Already up to date.
+johnnylang@johnnys-MBP git-course % git merge header
+Updating d985855..0d1e3a5
+Fast-forward
+ .gitignore    | 2 ++
+ passwords.env | 1 +
+ 2 files changed, 3 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 passwords.env
+johnnylang@johnnys-MBP git-course % git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+johnnylang@johnnys-MBP git-course % git branch -av
+  header                0d1e3a5 added a gitignore
+* master                0d1e3a5 [ahead 1] added a gitignore
+  sidebar               d985855 added lists
+  remotes/origin/master d985855 added lists
+johnnylang@johnnys-MBP git-course % git commit -am "added a gitignore"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+johnnylang@johnnys-MBP git-course % git push origin master
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 426 bytes | 426.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/johnnylang12/git-course.git
+   d985855..0d1e3a5  master -> master
+johnnylang@johnnys-MBP git-course % git push origin master
+Everything up-to-date
+johnnylang@johnnys-MBP git-course % git rm -r --cached .
+rm '.gitignore'
+rm 'config.js'
+rm 'css/main.css'
+rm 'index.html'
+rm 'passwords.env'
+johnnylang@johnnys-MBP git-course % git push origin master
+Everything up-to-date
+johnnylang@johnnys-MBP git-course % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    .gitignore
+	deleted:    config.js
+	deleted:    css/main.css
+	deleted:    index.html
+	deleted:    passwords.env
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+	config.js
+	css/
+	index.html
+
+johnnylang@johnnys-MBP git-course % git add .
+johnnylang@johnnys-MBP git-course % git commit -am "updated"
+[master 533c458] updated
+ Committer: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+ delete mode 100644 passwords.env
+johnnylang@johnnys-MBP git-course % git push origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 368 bytes | 368.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/johnnylang12/git-course.git
+   0d1e3a5..533c458  master -> master
+johnnylang@johnnys-MBP git-course % git remote
+origin
+johnnylang@johnnys-MBP git-course % git remote add github https://johnnylang12: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@github.com/johnnylang12/git-course.git
+johnnylang@johnnys-MBP git-course % git remote rm github
+johnnylang@johnnys-MBP git-course % git remote rename origin github
+johnnylang@johnnys-MBP git-course % git remote rename github origin
+johnnylang@johnnys-MBP git-course % git remote show github
+fatal: 'github' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+johnnylang@johnnys-MBP git-course % git remote show origin
+* remote origin
+  Fetch URL: https://johnnylang12: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@github.com/johnnylang12/git-course.git
+  Push  URL: https://johnnylang12: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@github.com/johnnylang12/git-course.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+johnnylang@johnnys-MBP git-course % git pull origin master
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/johnnylang12/git-course
+ * branch            master     -> FETCH_HEAD
+   533c458..cd18a62  master     -> origin/master
+Updating 533c458..cd18a62
+Fast-forward
+ package.json | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 package.json
+johnnylang@johnnys-MBP git-course % clear
+
+johnnylang@johnnys-MBP git-course % cd ..
+johnnylang@johnnys-MBP Projects % git clone https://github.com/johnnylang12/codingphase-blog.git
+Cloning into 'codingphase-blog'...
+remote: Enumerating objects: 189, done.
+remote: Total 189 (delta 0), reused 0 (delta 0), pack-reused 189
+Receiving objects: 100% (189/189), 9.67 MiB | 9.96 MiB/s, done.
+Resolving deltas: 100% (63/63), done.
+johnnylang@johnnys-MBP Projects % cp-blog
+zsh: command not found: cp-blog
+johnnylang@johnnys-MBP Projects % cd codingphase-blog
+johnnylang@johnnys-MBP codingphase-blog % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+johnnylang@johnnys-MBP codingphase-blog % git add .
+johnnylang@johnnys-MBP codingphase-blog % git commit -am "interview for Johnny Lang"
+[master 06cf336] interview for Johnny Lang
+ Committer: Johnny Lang <johnnylang@johnnys-MBP.lan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 54 insertions(+)
+ create mode 100644 img/blog/interview-johnny-lang.jpeg
+ create mode 100644 post/johnny-lang-interview.md
+johnnylang@johnnys-MBP codingphase-blog % git push origin master
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://johnnylang12:Mong1544@github.com/johnnylang12/codingphase-blog.git/'
+johnnylang@johnnys-MBP codingphase-blog % ssh-keygen -t ed25519 -C johnnylang12@gmail.com
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/Users/johnnylang/.ssh/id_ed25519): 
+Created directory '/Users/johnnylang/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/johnnylang/.ssh/id_ed25519
+Your public key has been saved in /Users/johnnylang/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:uQEGmNSThRftPxTFyX+mYEUi3T/cAgFl5KWu5y0y/iA johnnylang12@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+| ..+.+oo  oOB=o  |
+|  o =.. . .+*+o  |
+|     oo.   .o+...|
+|     . .....o oo=|
+|        So ... =.|
+|         oo.  .  |
+|        E o..    |
+|         .o+..   |
+|         ..+o..  |
++----[SHA256]-----+
+johnnylang@johnnys-MBP codingphase-blog % eval "$(ssh-agent -s)"
+Agent pid 11874
+johnnylang@johnnys-MBP codingphase-blog % ~/.ssh/config
+zsh: no such file or directory: /Users/johnnylang/.ssh/config
+johnnylang@johnnys-MBP codingphase-blog % touch ~/.ssh/config
+johnnylang@johnnys-MBP codingphase-blog % vim ~/.ssh/config
+
+Host *
+ AddKeysToAgent yes
+ IdentityFile ~/.ssh/id_ed25519
+ UseKeychain yes
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+-- INSERT --
