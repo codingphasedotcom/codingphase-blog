@@ -11,7 +11,7 @@ author_link: "https://www.twitter.com/codingphase"
 
 ### Can you introduce yourself (name, location, age, etc..)?
 
-Hi, my name is Keng Vang. 27, from Maplewood, Minnesota
+Hi, my name is Keng Vang. 27, from Minnesota.
 
 ### How did you get interested in programming?
 
